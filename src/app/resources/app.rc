@@ -1,0 +1,34 @@
+#pragma code_page(65001)  // 本文件是 UTF-8，rc 默认按系统 ANSI 读会把中文资源变成乱码
+#include <windows.h>
+
+#define IDI_APPICON 101
+
+IDI_APPICON ICON "app.ico"
+1 RT_MANIFEST "app.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "无界键鼠"
+            VALUE "FileVersion", "1.1.0.0"
+            VALUE "InternalName", "BorderlessMouse"
+            VALUE "OriginalFilename", "BorderlessMouse.exe"
+            VALUE "ProductName", "无界键鼠"
+            VALUE "ProductVersion", "1.1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END

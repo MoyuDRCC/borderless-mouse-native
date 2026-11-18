@@ -1,0 +1,32 @@
+# 构建产物
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+CMakeUserPresets.json
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.aps
+*.ncb
+*.sdf
+*.ipch
+*.VC.db
+*.VC.opendb
+
+# rc.exe 在源码目录留下的预处理临时文件
+RCa[0-9]*
+
+# 调试与中间文件
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Windows 杂项
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/

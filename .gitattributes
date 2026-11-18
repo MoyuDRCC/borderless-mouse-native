@@ -1,0 +1,8 @@
+# 源码统一 LF 检出，避免跨编辑器混用换行
+* text=auto eol=lf
+
+# 二进制资源
+*.ico binary
+*.png binary
+*.jpg binary
+*.zip binary
